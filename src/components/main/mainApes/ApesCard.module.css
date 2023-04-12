@@ -1,0 +1,14 @@
+.container {
+  transform: translateY(-100px);
+  height: 377px;
+  border: 4px solid transparent;
+}
+.container:hover {
+  border: 4px solid #000;
+}
+.image {
+  border: 8px solid transparent;
+}
+.detailsSection {
+  width: 94.5%;
+}

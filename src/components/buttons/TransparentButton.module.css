@@ -1,0 +1,25 @@
+.button {
+  position: relative;
+  transition: 1s;
+  overflow: hidden;
+}
+.button::before {
+  content: attr(data-texto);
+  position: absolute;
+  top: 0;
+  right: -200px;
+  height: 100%;
+  color: #fff;
+  width: 100%;
+  background-color: #000;
+  transition: .5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button:hover {
+  color: transparent;
+}
+.button:hover.button::before {
+  right: 0;
+}

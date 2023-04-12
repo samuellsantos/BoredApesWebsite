@@ -1,0 +1,15 @@
+.balloon {
+  transform: translateY(10px);
+  animation: balloonUp 5s infinite forwards;
+}
+@keyframes balloonUp {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
