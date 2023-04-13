@@ -6,7 +6,6 @@ import styles from './ApesCard.module.css'
 import { GoVerified } from 'react-icons/go';
 import { FaEthereum } from 'react-icons/fa';
 import { FiArrowUpRight } from 'react-icons/fi';
-import { CircularText } from './CircularText'
 
 
 
@@ -77,7 +76,6 @@ export const ApesCard = () => {
         </div>
       ))}
 
-      <CircularText />
     </section>
   )
 }

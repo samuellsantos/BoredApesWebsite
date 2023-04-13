@@ -1,15 +1,16 @@
 import React from 'react'
 import rabisco from '../../assets/rabisco.png'
+import styles from './Rabisco.module.css'
 
 export const Rabisco = () => {
   return (
-    <div className='flex items-center justify-between 2xl:w-10/12 gap-96'>
+    <div className='flex items-center justify-between w-full  gap-6 xl:w-10/12'>
       <div className='flex gap-6'>
-          <div className='relative cursor-pointer'>
+          <div className={`relative cursor-pointer ${styles.rabisco}`}>
             <img src={rabisco} alt="Rabisco" />
             <a href="#" className='absolute top-3 left-6 font-overpass underline'>Twitter</a>
           </div>
-          <div className='relative cursor-pointer'>
+          <div className={`relative cursor-pointer ${styles.rabisco}`}>
             <img src={rabisco} alt="Rabisco" />
             <a href="#" className='absolute top-3 left-4 font-overpass underline'>Instagram</a>
           </div>
@@ -17,11 +18,11 @@ export const Rabisco = () => {
 
 
         <div className='flex gap-6'>
-          <div className='relative cursor-pointer'>
+          <div className={`relative cursor-pointer ${styles.rabisco}`}>
               <img src={rabisco} alt="Rabisco" />
               <a href="#" className='absolute top-3 left-5 font-overpass underline'>Telegram</a>
             </div>
-            <div className='relative cursor-pointer'>
+            <div className={`relative cursor-pointer ${styles.rabisco}`}>
               <img src={rabisco} alt="Rabisco" />
               <a href="#" className='absolute top-3 left-4 font-overpass underline'>Facebook</a>
             </div>
