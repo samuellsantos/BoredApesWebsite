@@ -4,7 +4,6 @@ import { WhiteButton } from '../buttons/WhiteButton'
 import { TransparentButton } from '../buttons/TransparentButton'
 import ballon from '../../assets/balloon.png'
 import styles from './Main.module.css'
-
 export const Main = () => {
   return (
     <main className="bg-[url('/src/assets/backgroundGreen.png')] flex items-center justify-center flex-col gap-20">
@@ -24,6 +23,7 @@ export const Main = () => {
         New Year Ape metaverse ecosystem of NFT character collectables and a global
       </p>
       </div>
+
     </main>
   )
 }
