@@ -8,10 +8,10 @@ export const Collection = () => {
 
 
   return (
-    <div>
+    <div className='p-4'>
       {image === 'first' && (
         <div className='rounded-lg overflow-hidden'>
-          <img src={image1} alt="Bored Ape 3d" />
+          <img src={image1} alt="Bored Ape 3d"/>
         </div>
       )}
       {image === 'second' && (

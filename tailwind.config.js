@@ -10,6 +10,7 @@ export default {
       },
       backgroundImage: {
         'green-background': "url('/src/assets/backgroundGreen.png')",
+        'monkey-bg': "url('/src/assets/monkey-bg.png')",
       },
     },
   },

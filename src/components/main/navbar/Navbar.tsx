@@ -4,7 +4,7 @@ import { TransparentButton } from '../../buttons/TransparentButton'
 
 export const Navbar = () => {
   return (
-    <nav className='flex justify-between items-center p-4 w-full 2xl:w-10/12'>
+    <nav className='flex flex-col justify-center gap-8 items-center p-4 w-full 2xl:w-10/12 md:flex-row md:justify-between'>
       <div className="logo">
         <img src={logo} alt="Logo Bored Apes" />
       </div>

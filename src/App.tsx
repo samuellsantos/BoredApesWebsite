@@ -5,6 +5,7 @@ import { NewApesSection } from './components/newApes/NewApesSection'
 import { About } from './components/AboutSection/About'
 import { PurchaseSection } from './components/PurchaseSection/PurchaseSection'
 import { OurCollection } from './components/OurCollection/OurCollection'
+import { Partners } from './components/Partners/Partners'
 
 export function App() {
 
@@ -16,6 +17,7 @@ export function App() {
    <About />
    <PurchaseSection />
    <OurCollection />
+   <Partners />
    </>
   )
 }
