@@ -5,7 +5,7 @@ import { InputText } from './input/InputText'
 
 export const Partners = () => {
   return (
-    <section className="flex items-center justify-center flex-col relative mt-24">
+    <section className="flex items-center justify-center flex-col relative mt-24 px-4">
       <div className='z-20 flex flex-col items-center'>
         <h1 className='text-7xl font-overpass font-bold'>Partners</h1>
         <p className='font-robotoCondensed text-2xl'>
@@ -13,8 +13,8 @@ export const Partners = () => {
         </p>
       </div>
       <PartnersName />
-      <div>
-        <h1 className='text-6xl mt-12 font-robotoCondensed font-bold'>Subscribe to our updates</h1>
+      <div className='mt-14'>
+        <h1 className='text-6xl mt-12 font-robotoCondensed font-bold text-center md:text-left'>Subscribe to our updates</h1>
         <InputText />
       </div>
       <img src={background} alt="Background Image" className='absolute top-4 z-10'/>

@@ -4,7 +4,7 @@ import styles from './Rabisco.module.css'
 
 export const Rabisco = () => {
   return (
-    <div className='flex items-center justify-between w-full  gap-6 xl:w-10/12'>
+    <div className='flex items-center justify-center md:justify-between flex-wrap w-full gap-6 xl:w-10/12'>
       <div className='flex gap-6'>
           <div className={`relative cursor-pointer ${styles.rabisco}`}>
             <img src={rabisco} alt="Rabisco" />
